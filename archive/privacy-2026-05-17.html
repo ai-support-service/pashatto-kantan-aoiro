@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ぱしゃっと、かんたん青色。のプライバシーポリシー">
+<title>プライバシーポリシー | ぱしゃっと、かんたん青色。</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(180deg, #dbeafe 0%, #e0f2fe 100%);
+    background-attachment: fixed;
+    color: #1a2744;
+    line-height: 1.85;
+    font-size: 15px;
+    min-height: 100vh;
+  }
+  .page-wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 20px 16px 60px;
+  }
+  /* ヘッダー(白いカード) */
+  .brand-header {
+    background: white;
+    border-radius: 24px;
+    padding: 32px 28px 28px;
+    margin-bottom: 16px;
+    text-align: center;
+    box-shadow: 0 2px 14px rgba(26, 147, 224, 0.08);
+  }
+  .brand-logo {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .brand-name {
+    font-size: 22px;
+    font-weight: 900;
+    color: #1a2744;
+    letter-spacing: -0.01em;
+    margin-bottom: 4px;
+  }
+  .brand-name .accent { color: #1A93E0; }
+  .brand-divider {
+    width: 40px;
+    height: 2px;
+    background: #1A93E0;
+    margin: 10px auto;
+    border-radius: 1px;
+  }
+  .brand-tagline {
+    font-size: 11px;
+    color: #64748b;
+    letter-spacing: 0.05em;
+  }
+  /* 本文カード */
+  .content-card {
+    background: white;
+    border-radius: 24px;
+    padding: 36px 28px 44px;
+    box-shadow: 0 2px 14px rgba(26, 147, 224, 0.08);
+  }
+  .doc-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1a2744;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .doc-meta {
+    text-align: center;
+    font-size: 11px;
+    color: #94a3b8;
+    margin-bottom: 28px;
+  }
+  .doc-meta span { margin: 0 6px; }
+  .intro {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid #1A93E0;
+    padding: 16px 18px;
+    border-radius: 0 12px 12px 0;
+    margin-bottom: 32px;
+    font-size: 13px;
+    color: #1e3a5f;
+    line-height: 1.8;
+  }
+  h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 14px;
+    padding-left: 14px;
+    border-left: 4px solid #1A93E0;
+    color: #1a2744;
+    line-height: 1.4;
+  }
+  h2:first-of-type { margin-top: 0; }
+  h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    color: #1a2744;
+  }
+  p {
+    margin-bottom: 12px;
+    font-size: 13.5px;
+    color: #334155;
+  }
+  ul, ol {
+    margin: 10px 0 14px 0;
+    padding-left: 22px;
+  }
+  li {
+    margin-bottom: 6px;
+    font-size: 13.5px;
+    color: #334155;
+  }
+  /* テーブル */
+  .data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 14px 0 18px 0;
+    font-size: 12.5px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e0f2fe;
+  }
+  .data-table th, .data-table td {
+    border-bottom: 1px solid #e0f2fe;
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  .data-table tr:last-child th, .data-table tr:last-child td {
+    border-bottom: none;
+  }
+  .data-table th {
+    background: #eff6ff;
+    color: #1a2744;
+    font-weight: 700;
+    width: 36%;
+    border-right: 1px solid #e0f2fe;
+  }
+  .data-table td {
+    color: #334155;
+  }
+  /* ハイライトボックス */
+  .highlight-box {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 16px 0;
+    font-size: 12.5px;
+    color: #92400e;
+    line-height: 1.75;
+  }
+  .highlight-box strong { color: #78350f; }
+  /* お問い合わせカード */
+  .contact-card {
+    background: linear-gradient(135deg, #3DB7FF 0%, #1A93E0 100%);
+    color: white;
+    padding: 24px 22px;
+    border-radius: 16px;
+    margin-top: 32px;
+    text-align: center;
+  }
+  .contact-card .label {
+    font-size: 11px;
+    opacity: 0.9;
+    margin-bottom: 6px;
+    letter-spacing: 0.05em;
+  }
+  .contact-card h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+  .contact-card p {
+    color: white;
+    font-size: 12.5px;
+    margin-bottom: 4px;
+    opacity: 0.95;
+  }
+  .contact-card .line-id {
+    background: rgba(255,255,255,0.2);
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 6px;
+  }
+  /* フッター */
+  .doc-footer {
+    text-align: center;
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    font-size: 11px;
+    color: #94a3b8;
+  }
+  .doc-footer a {
+    color: #1A93E0;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .doc-footer a:hover { text-decoration: underline; }
+  /* ページ下部リンク */
+  .nav-links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .nav-links a {
+    display: inline-block;
+    color: #1A93E0;
+    text-decoration: none;
+    padding: 8px 14px;
+    margin: 0 4px;
+    border-radius: 100px;
+    background: rgba(255,255,255,0.7);
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  .nav-links a:hover {
+    background: white;
+    transform: translateY(-1px);
+  }
+  /* スマホ対応 */
+  @media (max-width: 768px) {
+    body { font-size: 14px; }
+    .page-wrap { padding: 12px 12px 40px; }
+    .brand-header { padding: 24px 20px 22px; border-radius: 18px; }
+    .brand-logo { font-size: 40px; }
+    .brand-name { font-size: 18px; }
+    .content-card { padding: 28px 18px 36px; border-radius: 18px; }
+    .doc-title { font-size: 20px; }
+    h2 { font-size: 16px; }
+    .data-table { font-size: 12px; }
+    .data-table th, .data-table td { padding: 8px 10px; }
+    .data-table th { width: 38%; }
+    .contact-card { padding: 20px 18px; }
+    .contact-card h3 { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <!-- ブランドヘッダー -->
+  <div class="brand-header">
+    <div class="brand-logo">📸</div>
+    <div class="brand-name">ぱしゃっと、かんたん<span class="accent">青色</span>。</div>
+    <div class="brand-divider"></div>
+    <div class="brand-tagline">写真撮るだけ。会計画面、見ない。</div>
+  </div>
+
+  <!-- 本文カード -->
+  <div class="content-card">
+
+    <h1 class="doc-title">プライバシーポリシー</h1>
+    <div class="doc-meta">
+      <span>制定日: 2026年5月17日</span>・<span>最終改定: 2026年5月17日</span>
+    </div>
+
+    <div class="intro">
+      「ぱしゃっと、かんたん青色。」(以下「本サービス」)は、ユーザーの個人情報を適切に取り扱うため、本プライバシーポリシー(以下「本ポリシー」)を定めます。本サービスを利用する前に、必ず本ポリシーをお読みください。
+    </div>
+
+    <h2>1. 取得する個人情報</h2>
+    <p>本サービスは、サービス提供に必要な範囲で以下の情報を取得します。</p>
+    <table class="data-table">
+      <tr>
+        <th>項目</th>
+        <th>取得タイミング</th>
+      </tr>
+      <tr>
+        <td>LINEユーザーID</td>
+        <td>LINE公式アカウントの友だち追加時</td>
+      </tr>
+      <tr>
+        <td>お名前(ニックネーム可)</td>
+        <td>オンボーディング時にユーザーが入力</td>
+      </tr>
+      <tr>
+        <td>屋号</td>
+        <td>オンボーディング時にユーザーが入力(任意)</td>
+      </tr>
+      <tr>
+        <td>開業日/副業開始日</td>
+        <td>オンボーディング時にユーザーが入力</td>
+      </tr>
+      <tr>
+        <td>業種タイプ<br>(個人事業主/副業サラリーマン)</td>
+        <td>オンボーディング時にユーザーが選択</td>
+      </tr>
+      <tr>
+        <td>本業年収<br>(副業ユーザーのみ)</td>
+        <td>節税診断機能利用時にユーザーが入力</td>
+      </tr>
+      <tr>
+        <td>レシート・控除証明書の画像</td>
+        <td>ユーザーがLINEで送信したとき</td>
+      </tr>
+      <tr>
+        <td>売上・経費・控除データ</td>
+        <td>レシート画像のAI解析結果、<br>およびユーザーが入力したテキスト</td>
+      </tr>
+      <tr>
+        <td>サービス利用ログ</td>
+        <td>本サービス利用中に自動的に記録</td>
+      </tr>
+    </table>
+
+    <h2>2. 利用目的</h2>
+    <p>取得した個人情報は、以下の目的に限り利用します。</p>
+    <ul>
+      <li>本サービスの提供(青色申告・経理業務のサポート)</li>
+      <li>レシート画像のAI解析と仕訳帳への記帳</li>
+      <li>控除証明書の自動判別と所得控除データの記録</li>
+      <li>月次・年次サマリーの作成・配信</li>
+      <li>ダッシュボードの生成・表示</li>
+      <li>節税診断などの分析機能の提供</li>
+      <li>サービス改善のための統計分析(個人を特定しない形式で実施)</li>
+      <li>ユーザーからのお問い合わせへの対応</li>
+      <li>重要なお知らせの配信</li>
+    </ul>
+
+    <h2>3. 第三者への提供</h2>
+    <p>本サービスは、法令に基づく場合を除き、ユーザーの同意なく個人情報を第三者に提供することはありません。ただし、サービス提供のために以下の外部サービスを利用し、必要なデータを送信します。</p>
+    <table class="data-table">
+      <tr>
+        <th>外部サービス</th>
+        <th>送信される情報・目的</th>
+      </tr>
+      <tr>
+        <td>LINE Messaging API<br>(LINEヤフー株式会社)</td>
+        <td>LINE上でのメッセージ送受信。<br>LINEユーザーID・送受信メッセージ。</td>
+      </tr>
+      <tr>
+        <td>Anthropic Claude API<br>(Anthropic, PBC)</td>
+        <td>レシート・控除証明書の画像解析。<br>画像データ・解析結果。<br>※ APIプロバイダの規約により、送信データはモデル学習には使用されません。</td>
+      </tr>
+      <tr>
+        <td>Google Workspace<br>(Google LLC)</td>
+        <td>Google Drive(画像保存)・<br>Google Sheets(仕訳帳・ユーザーマスタ保存)。</td>
+      </tr>
+    </table>
+    <div class="highlight-box">
+      <strong>※ 海外への移転について</strong><br>
+      上記の外部サービスのうち、Anthropic ClaudeおよびGoogle Workspaceについてはデータが海外のサーバーで処理される場合があります。各サービスは適切な安全管理措置を講じています。
+    </div>
+
+    <h2>4. 個人情報の管理</h2>
+    <p>本サービスは、個人情報の漏洩、滅失、毀損を防止するため、以下の安全管理措置を講じています。</p>
+    <ul>
+      <li>各種APIキー・認証情報はサーバーの環境変数(Google Apps Scriptのスクリプトプロパティ)で厳重に管理</li>
+      <li>ユーザーごとに個別のデータ保管領域(Google Driveフォルダ・スプレッドシート)を作成</li>
+      <li>ダッシュボードURLにはUUID v4トークン認証を導入し、第三者によるアクセスを防止</li>
+      <li>ユーザーは「URLリセット」コマンドにより、いつでもダッシュボードURLを再発行可能</li>
+      <li>個人情報を取り扱う担当者は運営者本人のみに限定</li>
+    </ul>
+
+    <h2>5. 保存期間</h2>
+    <p>ユーザーの個人情報は、本サービスの利用期間中、および以下のいずれかに該当するまで保存します。</p>
+    <ul>
+      <li>ユーザーが本サービスから退会するまで</li>
+      <li>本サービスが終了するまで</li>
+    </ul>
+    <p>ただし、税法・会計法令により保存義務がある電子帳簿等については、法定保存期間(原則7年)に従って保存する場合があります。退会後も、再Follow判定のため最小限のメタデータ(LINEユーザーID・退会日時のみ、個人を特定する情報を含まない)を保管することがあります。</p>
+
+    <h2>6. ユーザーの権利</h2>
+    <p>ユーザーは、自身の個人情報について以下の権利を有します。</p>
+    <ul>
+      <li><strong>閲覧</strong>: LINE公式アカウントで「ダッシュボード」と送信することで、いつでも自身の登録データを確認できます</li>
+      <li><strong>修正</strong>: 「設定」コマンドから名前・屋号・開業日・業種・本業年収を変更できます</li>
+      <li><strong>削除</strong>: 「削除」コマンドで個別の取引を削除できます</li>
+      <li><strong>退会(全データの完全削除)</strong>: 「退会」コマンドで全データを完全削除できます</li>
+      <li><strong>その他の請求</strong>: 個人情報の開示・利用停止・第三者提供停止などの請求はお問い合わせ先からご連絡ください</li>
+    </ul>
+
+    <h2>7. Cookie等の利用</h2>
+    <p>本サービスのダッシュボード(Webページ)は、ユーザー識別のためURLパラメータを使用しますが、Cookieによる追跡やアクセス解析ツールは使用していません。</p>
+
+    <h2>8. 未成年者の利用</h2>
+    <p>本サービスは、青色申告を行う事業者および副業を行う方を対象としています。18歳未満の方がご利用になる場合は、保護者の同意を得てください。</p>
+
+    <h2>9. 本ポリシーの改定</h2>
+    <p>本サービスは、必要に応じて本ポリシーを改定することがあります。重要な変更を行う場合は、LINE公式アカウントを通じて事前に通知します。改定後の本ポリシーは、本ページに掲載された時点から効力を持ちます。</p>
+
+    <h2>10. 運営者</h2>
+    <p>本サービスの運営者は以下のとおりです。</p>
+    <table class="data-table">
+      <tr>
+        <th>サービス名</th>
+        <td>ぱしゃっと、かんたん青色。</td>
+      </tr>
+      <tr>
+        <th>所在地</th>
+        <td>日本国内<br><span style="font-size:11px;color:#64748b;">※ 詳細な所在地は法令に基づく開示請求により提供します</span></td>
+      </tr>
+      <tr>
+        <th>個人情報保護管理者</th>
+        <td>ぱしゃっと、かんたん青色。 運営チーム</td>
+      </tr>
+    </table>
+
+    <!-- お問い合わせ -->
+    <div class="contact-card">
+      <div class="label">CONTACT</div>
+      <h3>お問い合わせ</h3>
+      <p>本ポリシーに関するご質問は<br>LINE公式アカウントへお送りください</p>
+      <div class="line-id">📱 @786pwyzi</div>
+    </div>
+
+    <div class="doc-footer">
+      <a href="terms.html">利用規約はこちら →</a>
+    </div>
+
+  </div>
+
+  <div class="nav-links">
+    <a href="terms.html">📋 利用規約</a>
+  </div>
+
+</div>
+</body>
+</html>
